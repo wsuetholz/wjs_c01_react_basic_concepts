@@ -31,7 +31,7 @@ class Country extends Component {
                 <Divider />
                 <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ px: 2, py: 1, bgcolor: 'background.default' }}>
                     <Stack direction="column" alignItems="center" justifyContent="space-between">
-                        <Avatar className='MedalCount' >
+                        <Avatar sx={{ color: 'black', bgcolor: 'gold' }} >
                             {this.state.gold}
                         </Avatar>
                         <Typography fontWeight={400}>Gold Medals</Typography>
